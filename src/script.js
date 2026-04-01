@@ -8,7 +8,7 @@ let close_div = document.querySelector("#close-button");
 function displayImage(){
     // style the image that was hidden by css to display it when the button i
     picture.style.display = "block";
-    button.innerHTML = "Here is a milkshake for you"
+    button.innerHTML = "beach view";
 }
 button.addEventListener("click", displayImage);
 // created a functio that hides the close button when it is clicked on
